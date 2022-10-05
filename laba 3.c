@@ -2,12 +2,14 @@
 int main () {
     int a;
     int b;
+    int c=a;
     scanf("%x", &a);
     scanf("%o", &b);
-    printf("%u\n", a);
-    printf("%o\n", a);
-    printf("%o\n", a >> 1);
+    printf("%d\n", a);
+    printf("%x\n", a);
+    printf("%o",a);
+    printf("%x\n", a >> 1);
     printf("%o\n", ~a);
-    printf("%o\n", (a | b));
+    printf("%d\n", (c | b));
     return 0;
 }
